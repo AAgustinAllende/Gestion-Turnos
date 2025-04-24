@@ -1,0 +1,11 @@
+--CREATE DATABASE Turnero
+
+USE Turnero;
+
+CREATE TABLE Turnos (
+   id INT IDENTITY (1,1) PRIMARY KEY,
+   name VARCHAR(100) NOT NULL,
+   price DECIMAL(10, 2), 
+   hour VARCHAR(100) NOT NULL,
+   cancha VARCHAR(100), 
+)
